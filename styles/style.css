@@ -1,0 +1,129 @@
+ /* fonts */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+ 
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+main {
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 870px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+.section-title {
+    font-size: 24px;
+    color: #562EFF;
+    font-weight: 500;
+    margin-top:3px;
+}
+/* start top player styles */
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+
+}
+.player {
+    display: flex;
+    align-items: center;
+    
+}
+.player img {
+    width: 56px;
+    height: 56px;
+}
+.player-name {
+    margin-left: 18px;
+    font-size: 18px;
+}
+hr {
+    color: #D1D1D1;
+    margin-top: 21px;
+}
+
+ /* top blog styles here */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog-img img{
+    width: 177px;
+   height: 117px;
+}
+.blog {
+    display:flex;
+    align-items: center;
+}
+.blog-details {
+    margin-left: 16px;
+}
+.blog-details h3 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+.blog-details p {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-details p a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+
+/* courses style  */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.course {
+    width: 252.42px;
+}
+.course-detail img {
+    width: 224px;
+    height: 104px;
+}
+.course-detail h3 {
+    font-size: 20px;
+    color: #1E1E1E;
+}
+.course-detail p {
+    color: #ED6B4F;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.course-info, 
+.filled {
+    color: #ED6B4F;
+}
+.course-info p {
+    color: #A2A2A2;
+}
+/* .class-duration {
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    Width :94.83px;
+    Height:29.38px
+} */
+.class-duration p {
+    color: #FF4A60;
+}
+.class-duration i {
+    margin-right: 5px;
+}
